@@ -9,8 +9,8 @@ section.page-section:has(.ihp) .content-wrapper{padding:0 !important;max-width:n
 .ihp .wrap{max-width:1240px;margin:0 auto;padding:0 32px}
 .ihp a{text-decoration:none}
 /* hero */
-.ihp .hero{min-height:78vh;display:flex;align-items:center;background:linear-gradient(100deg,rgba(20,28,48,.92) 0%,rgba(31,42,68,.72) 48%,rgba(31,42,68,.25) 100%),url('https://images.squarespace-cdn.com/content/v1/69ea67f628079272b93d7376/1776973813644-M8YEGN090B684NV7N1L2/unsplash-image-EN1tF2EG-50.jpg?format=2500w') center/cover no-repeat;color:#fff}
-.ihp .hero .wrap{width:100%;padding-top:72px;padding-bottom:72px}
+.ihp .hero{min-height:88vh;display:flex;align-items:center;background:linear-gradient(100deg,rgba(20,28,48,.92) 0%,rgba(31,42,68,.72) 48%,rgba(31,42,68,.25) 100%),url('https://images.squarespace-cdn.com/content/v1/69ea67f628079272b93d7376/1776973813644-M8YEGN090B684NV7N1L2/unsplash-image-EN1tF2EG-50.jpg?format=2500w') center/cover no-repeat;color:#fff}
+.ihp .hero .wrap{width:100%;padding-top:calc(var(--hh,200px) + 28px);padding-bottom:72px}
 .ihp .eyebrow{display:inline-block;font-size:.78em;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:0 0 18px}
 .ihp .hero h1{color:#fff !important;font-size:clamp(2.6rem,6vw,4.8rem);line-height:1.04;font-weight:700;letter-spacing:-.02em;margin:0 0 20px;max-width:12ch}
 .ihp .hero p.sub{color:rgba(255,255,255,.9);font-size:clamp(1.05rem,1.6vw,1.3rem);line-height:1.5;max-width:46ch;margin:0 0 32px}
@@ -66,7 +66,7 @@ section.page-section:has(.ihp) .content-wrapper{padding:0 !important;max-width:n
 .ihp .cta p{color:rgba(255,255,255,.88);font-size:1.15rem;margin:0 auto 30px;max-width:48ch}
 .ihp .cta .btns{justify-content:center}
 @media (max-width:1000px){.ihp .cats{grid-template-columns:repeat(3,1fr)}.ihp .ncards{grid-template-columns:1fr 1fr}}
-@media (max-width:767px){.ihp .wrap{padding:0 20px}.ihp .hero{min-height:70vh}.ihp .nums .wrap{grid-template-columns:1fr 1fr;gap:20px}.ihp .sec{padding:60px 0}.ihp .cats{grid-template-columns:1fr 1fr;gap:12px}.ihp .cat{aspect-ratio:auto;min-height:170px;padding:16px}.ihp .cat .d{display:none}.ihp .steps{grid-template-columns:1fr;gap:16px}.ihp .ncards{grid-template-columns:1fr}}
+@media (max-width:767px){.ihp .wrap{padding:0 20px}.ihp .hero{min-height:80vh}.ihp .nums .wrap{grid-template-columns:1fr 1fr;gap:20px}.ihp .sec{padding:60px 0}.ihp .cats{grid-template-columns:1fr 1fr;gap:12px}.ihp .cat{aspect-ratio:auto;min-height:170px;padding:16px}.ihp .cat .d{display:none}.ihp .steps{grid-template-columns:1fr;gap:16px}.ihp .ncards{grid-template-columns:1fr}}
 </style>
 <div class="ihp">
 
@@ -131,4 +131,4 @@ section.page-section:has(.ihp) .content-wrapper{padding:0 !important;max-width:n
 </div></section>
 
 </div>
-<script>(function(){var U='https://raw.githubusercontent.com/IronandSignal/Iron-and-signal-news/main/news.json';function e(t){return String(t==null?'':t).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}fetch(U,{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){var st=((j&&j.stories)||[]).filter(function(s){return /^https:\/\//.test(s.url||'')}).slice(0,3);if(st.length<3)return;var h='';st.forEach(function(s){var im=/^[0-9]+-[0-9a-f]+$/.test(s.image||'')?'<img src="https://images.unsplash.com/photo-'+s.image+'?auto=format&fit=crop&w=800&h=500&q=80" alt="" loading="lazy">':'';h+='<a class="nc" href="'+e(s.url)+'" target="_blank" rel="noopener">'+im+'<div class="nb"><span class="tg">'+e(s.category)+'</span><p class="tx">'+e(s.text)+'</p><span class="sr">'+e(s.source)+' &middot; '+e(s.date)+' &nearr;</span></div></a>'});var g=document.getElementById('ihp-news');if(g)g.innerHTML=h}).catch(function(){})})();</script>
+<script>(function(){function hh(){var h=document.querySelector('header#header,.header');var x=document.querySelector('.ihp');if(h&&x)x.style.setProperty('--hh',Math.round(h.getBoundingClientRect().height)+'px')}hh();addEventListener('load',hh);addEventListener('resize',hh)})();(function(){var U='https://raw.githubusercontent.com/IronandSignal/Iron-and-signal-news/main/news.json';function e(t){return String(t==null?'':t).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}fetch(U,{cache:'no-cache'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){var st=((j&&j.stories)||[]).filter(function(s){return /^https:\/\//.test(s.url||'')}).slice(0,3);if(st.length<3)return;var h='';st.forEach(function(s){var im=/^[0-9]+-[0-9a-f]+$/.test(s.image||'')?'<img src="https://images.unsplash.com/photo-'+s.image+'?auto=format&fit=crop&w=800&h=500&q=80" alt="" loading="lazy">':'';h+='<a class="nc" href="'+e(s.url)+'" target="_blank" rel="noopener">'+im+'<div class="nb"><span class="tg">'+e(s.category)+'</span><p class="tx">'+e(s.text)+'</p><span class="sr">'+e(s.source)+' &middot; '+e(s.date)+' &nearr;</span></div></a>'});var g=document.getElementById('ihp-news');if(g)g.innerHTML=h}).catch(function(){})})();</script>
