@@ -1,0 +1,32 @@
+<style>
+section.page-section:has(.irc){min-height:0 !important;padding:0 !important}
+section.page-section:has(.irc) .content-wrapper{padding:0 !important;max-width:none !important}
+.fluid-engine:has(.irc){grid-template-rows:unset !important}
+.fluid-engine:has(.irc) > .fe-block:not(:has(.irc)){display:none !important}
+.fluid-engine:has(.irc) > .fe-block:has(.irc){grid-row-start:1 !important;grid-row-end:-1 !important;grid-column-start:1 !important;grid-column-end:-1 !important}
+.sqs-block:has(.irc){padding:0 !important}
+.irc{--navy:#1f2a44;--gold:#f2b705;color:#1f2a44;font-family:Inter,system-ui,sans-serif}
+.irc *{box-sizing:border-box}
+.irc .hero{width:100vw;position:relative;left:50%;margin-left:-50vw;min-height:56vh;display:flex;align-items:center;color:#fff;background:linear-gradient(100deg,rgba(20,28,48,.94) 0%,rgba(31,42,68,.8) 52%,rgba(31,42,68,.4) 100%),url('https://images.squarespace-cdn.com/content/v1/69ea67f628079272b93d7376/1776973813644-M8YEGN090B684NV7N1L2/unsplash-image-EN1tF2EG-50.jpg?format=2500w') center 60%/cover no-repeat}
+.irc .wrap{max-width:1240px;margin:0 auto;padding:calc(var(--hh,200px) + 24px) 32px 64px;width:100%}
+.irc .eyebrow{font-size:.78em;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:0 0 16px}
+.irc h1{color:#fff !important;font-size:clamp(2.4rem,5vw,4rem);line-height:1.05;font-weight:700;letter-spacing:-.02em;margin:0 0 18px;max-width:16ch}
+.irc p.sub{color:rgba(255,255,255,.9);font-size:clamp(1.02rem,1.5vw,1.2rem);line-height:1.55;max-width:54ch;margin:0 0 28px}
+.irc .btns{display:flex;flex-wrap:wrap;gap:14px}
+.irc .btns a{display:inline-flex;align-items:center;gap:8px;padding:14px 24px;border-radius:999px;font-weight:600;font-size:1rem;text-decoration:none;transition:transform .15s ease,box-shadow .15s ease,background .15s ease}
+.irc .b1{background:var(--gold);color:var(--navy) !important}
+.irc .b2{border:2px solid rgba(255,255,255,.85);color:#fff !important}
+.irc .btns a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.irc .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+.irc .chip{font-size:.85rem;font-weight:600;color:#fff;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);padding:7px 12px;border-radius:999px}
+.irc .chip b{color:var(--gold)}
+@media (max-width:767px){.irc .wrap{padding-left:20px;padding-right:20px;padding-bottom:48px}.irc .hero{min-height:0}}
+</style>
+<div class="irc"><section class="hero"><div class="wrap">
+<p class="eyebrow">Reviewed Categories</p>
+<h1>Pick a category. Get the top 6.</h1>
+<p class="sub">Operational reality checks across key industrial technology sectors. Evaluating something you don't see here? Drop us a line and we'll put it on our radar for an upcoming deep dive.</p>
+<div class="btns"><a class="b1" href="#categories" data-grid>Browse Categories ↓</a><a class="b2" href="/solutions/request-a-review">Request a Review</a></div>
+<div class="chips"><span class="chip"><b>13</b> tech categories</span><span class="chip"><b>78</b> products ranked</span><span class="chip"><b>0</b> paid placements</span></div>
+</div></section></div>
+<script>(function(){function hh(){var h=document.querySelector('header#header,.header');var x=document.querySelector('.irc');if(h&&x)x.style.setProperty('--hh',Math.round(h.getBoundingClientRect().height)+'px')}hh();addEventListener('load',hh);addEventListener('resize',hh);document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('[data-grid]');if(!a)return;var g=document.getElementById('gridThumbs');if(g){e.preventDefault();var y=g.getBoundingClientRect().top+scrollY-110;scrollTo({top:y,behavior:'smooth'})}})})();</script>
