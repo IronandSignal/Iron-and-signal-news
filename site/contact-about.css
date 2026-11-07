@@ -4,6 +4,7 @@ section:has(#block-ee8556eef2d87959dc23) .section-background{background:#f4f5f8 
 @media (min-width:768px){
 .fe-block-fd260472d708bcc95e7c{grid-row-start:2 !important;grid-column-start:2 !important;grid-row-end:5 !important;grid-column-end:12 !important}
 .fe-block-20f57a6f1fd961fdf3e6{grid-row-start:5 !important;grid-column-start:2 !important;grid-row-end:20 !important;grid-column-end:12 !important}
+/*form top-aligned*/.fe-block-ee8556eef2d87959dc23 .sqs-block{justify-content:flex-start !important}.fe-block-ee8556eef2d87959dc23 .sqs-block-alignment-wrapper{align-items:flex-start !important}
 .fe-block-ee8556eef2d87959dc23{grid-row-start:2 !important;grid-column-start:14 !important;grid-row-end:22 !important;grid-column-end:26 !important}
 }
 #block-fd260472d708bcc95e7c h1{font-size:clamp(2.2rem,4vw,3.2rem) !important;font-weight:700 !important;letter-spacing:-.02em;line-height:1.08 !important;color:#1f2a44 !important}
