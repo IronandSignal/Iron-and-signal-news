@@ -1,6 +1,8 @@
 
 /* ===== REVIEWED CATEGORIES grid: light bg, smaller rounded tiles ===== */
-.collection-69eb8c2aa645a00f435831d9 section.cdk-section,.collection-69eb8c2aa645a00f435831d9 section.cdk-section .section-background{background:#f4f5f8 !important}
+.collection-69eb8c2aa645a00f435831d9 section.cdk-section .section-border{background:#e0e0db !important}
+.collection-69eb8c2aa645a00f435831d9 #gridThumbs{min-height:0 !important}
+.collection-69eb8c2aa645a00f435831d9 section.cdk-section,.collection-69eb8c2aa645a00f435831d9 section.cdk-section .section-background{background:#e0e0db !important}
 .collection-69eb8c2aa645a00f435831d9 #gridThumbs{padding-top:56px !important;padding-bottom:80px !important;max-width:1304px;margin-left:auto !important;margin-right:auto !important}
 .collection-69eb8c2aa645a00f435831d9 #gridThumbs{display:grid !important;grid-template-columns:repeat(6,minmax(0,1fr)) !important;gap:18px !important}
 .collection-69eb8c2aa645a00f435831d9 #gridThumbs .grid-item{width:auto !important;margin:0 !important;border-radius:12px;overflow:hidden;box-shadow:0 4px 14px rgba(20,28,48,.12)}
