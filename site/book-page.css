@@ -1,6 +1,7 @@
 
 /* ===== BOOK NOW (/appointments) — match homepage look ===== */
-section:has(#block-cc0c669dba4dd746d8b2){background:#f4f5f8 !important}
+section:has(#block-cc0c669dba4dd746d8b2) .section-background{background:#f4f5f8 !important}
+@media (min-width:768px){.fe-block-b048a9011ca78b737baa{grid-column:2/12 !important}.fe-block-8a89ac85cc00c5b31cb4{grid-column:2/12 !important}}
 #block-b048a9011ca78b737baa h2{font-size:clamp(2rem,3.4vw,2.6rem) !important;font-weight:700 !important;letter-spacing:-.02em;line-height:1.12 !important;color:#1f2a44 !important}
 #block-b048a9011ca78b737baa .sqs-html-content::before{content:"Straight answers · No vendor pitch";display:block;font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#8a6a00;margin-bottom:12px}
 #block-8a89ac85cc00c5b31cb4 p{font-size:1.08rem !important;line-height:1.6 !important;color:#1f2a44 !important;margin:0 0 14px !important}
