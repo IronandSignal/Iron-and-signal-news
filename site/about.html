@@ -1,0 +1,138 @@
+<style>
+section.page-section:has(.iab) .content-wrapper{padding:0 !important;max-width:none !important}
+section.page-section:has(.iab){min-height:0 !important;padding:0 !important}
+.fluid-engine:has(.iab){grid-template-rows:unset !important}
+.fluid-engine:has(.iab) > .fe-block:not(:has(.iab)){display:none !important}
+.fluid-engine:has(.iab) > .fe-block:has(.iab){grid-area:1/1/-1/-1 !important}
+.sqs-block:has(.iab){padding:0 !important}
+
+section.page-section:has(.iab){min-height:0 !important;padding:0 !important}
+section.page-section:has(.iab) .content-wrapper{padding:0 !important;max-width:none !important}
+.fluid-engine:has(.iab){grid-template-rows:unset !important}
+.sqs-block:has(.iab){padding:0 !important}
+.iab{--navy:#1f2a44;--deep:#141c30;--gold:#f2b705;--ink:#1f2a44;color:var(--ink);font-family:Inter,system-ui,sans-serif}
+.iab *{box-sizing:border-box}
+.iab .bleed{width:100vw;position:relative;left:50%;right:50%;margin-left:-50vw;margin-right:-50vw}
+.iab .wrap{max-width:1240px;margin:0 auto;padding:0 32px}
+.iab a{text-decoration:none}
+/* hero */
+.iab .hero{min-height:88vh;display:flex;align-items:center;background:linear-gradient(100deg,rgba(20,28,48,.92) 0%,rgba(31,42,68,.72) 48%,rgba(31,42,68,.25) 100%),url('https://images.squarespace-cdn.com/content/v1/69ea67f628079272b93d7376/1776973813644-M8YEGN090B684NV7N1L2/unsplash-image-EN1tF2EG-50.jpg?format=2500w') center/cover no-repeat;color:#fff}
+.iab .hero .wrap{width:100%;padding-top:calc(var(--hh,200px) + 28px);padding-bottom:72px}
+.iab .eyebrow{display:inline-block;font-size:.78em;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:0 0 18px}
+.iab .hero h1{color:#fff !important;font-size:clamp(2.6rem,6vw,4.8rem);line-height:1.04;font-weight:700;letter-spacing:-.02em;margin:0 0 20px;max-width:12ch}
+.iab .hero p.sub{color:rgba(255,255,255,.9);font-size:clamp(1.05rem,1.6vw,1.3rem);line-height:1.5;max-width:46ch;margin:0 0 32px}
+.iab .btns{display:flex;flex-wrap:wrap;gap:14px}
+.iab .btn1,.iab .btn2{display:inline-flex;align-items:center;gap:8px;padding:15px 26px;border-radius:999px;font-weight:600;font-size:1rem;transition:transform .15s ease,box-shadow .15s ease,background .15s ease}
+.iab .btn1{background:var(--gold);color:var(--navy) !important}
+.iab .btn2{border:2px solid rgba(255,255,255,.85);color:#fff !important}
+.iab .btn1:hover,.iab .btn2:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.iab .btn2:hover{background:rgba(255,255,255,.1)}
+/* numbers */
+.iab .nums{background:var(--navy);color:#fff}
+.iab .nums .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;padding-top:40px;padding-bottom:40px}
+.iab .num b{display:block;font-size:clamp(2rem,4vw,3rem);font-weight:800;color:var(--gold);line-height:1;letter-spacing:-.02em}
+.iab .num span{display:block;margin-top:8px;font-size:.92em;color:rgba(255,255,255,.85);font-weight:500}
+/* section heads */
+.iab .sec{padding:84px 0}
+.iab .kick{font-size:.78em;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#8a6a00;margin:0 0 10px}
+.iab h2{color:var(--navy) !important;font-size:clamp(1.8rem,3.4vw,2.6rem);font-weight:700;letter-spacing:-.02em;line-height:1.12;margin:0 0 12px}
+.iab .lead{font-size:1.1rem;line-height:1.55;max-width:58ch;margin:0 0 36px;color:var(--ink)}
+.iab .headrow{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap}
+.iab .more{font-weight:600;color:var(--navy) !important;border-bottom:3px solid var(--gold);padding-bottom:2px;margin-bottom:36px}
+/* category tiles */
+.iab .cats{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+.iab .cat{position:relative;display:flex;flex-direction:column;justify-content:space-between;aspect-ratio:1/1.08;padding:22px;background:var(--navy);color:#fff !important;border-radius:12px;overflow:hidden;transition:transform .15s ease,box-shadow .15s ease}
+.iab .cat::after{content:"";position:absolute;inset:0;border:3px solid var(--gold);border-radius:12px;opacity:0;transition:opacity .15s ease;pointer-events:none}
+.iab .cat:hover{transform:translateY(-5px);box-shadow:0 14px 30px rgba(20,28,48,.3)}
+.iab .cat:hover::after{opacity:1}
+.iab .cat svg{width:46px;height:46px}
+.iab .cat .t{font-size:1.15rem;font-weight:700;margin:14px 0 6px;color:#fff}
+.iab .cat .d{font-size:.86rem;line-height:1.4;color:rgba(255,255,255,.82);margin:0}
+.iab .cat .go{font-size:.8rem;font-weight:700;letter-spacing:.06em;color:var(--gold);margin-top:12px}
+/* steps */
+.iab .how{background:#fff}
+.iab .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.iab .step{padding:28px;border:1px solid rgba(31,42,68,.12);border-radius:12px;background:#fff}
+.iab .step .n{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:var(--gold);color:var(--navy);font-weight:800;font-size:1.1rem;margin-bottom:16px}
+.iab .step h3{color:var(--navy) !important;font-size:1.25rem;font-weight:700;margin:0 0 8px}
+.iab .step p{margin:0;line-height:1.55;color:var(--ink)}
+/* news */
+.iab .ncards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.iab .nc{display:flex;flex-direction:column;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 10px rgba(20,28,48,.08);color:var(--ink) !important;transition:transform .15s ease,box-shadow .15s ease}
+.iab .nc:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(20,28,48,.18)}
+.iab .nc img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block}
+.iab .nc .nb{padding:16px 18px 18px}
+.iab .nc .tg{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;background:var(--navy);color:#fff;padding:4px 8px;border-radius:4px;margin-bottom:10px}
+.iab .nc .tx{font-size:1rem;font-weight:600;line-height:1.4;margin:0 0 10px;color:var(--ink)}
+.iab .nc .sr{font-size:.82rem;opacity:.75}
+.iab .tick{margin-top:28px;border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 2px 10px rgba(20,28,48,.08)}
+/* cta */
+.iab .cta{background:linear-gradient(rgba(20,28,48,.88),rgba(20,28,48,.88)),url('https://images.unsplash.com/photo-1571223641822-b82408a0e705?auto=format&fit=crop&w=2000&q=70') center/cover;color:#fff;text-align:center}
+.iab .cta .wrap{padding-top:88px;padding-bottom:88px}
+.iab .cta h2{color:#fff !important;margin-bottom:12px}
+.iab .cta p{color:rgba(255,255,255,.88);font-size:1.15rem;margin:0 auto 30px;max-width:48ch}
+.iab .cta .btns{justify-content:center}
+@media (max-width:1000px){.iab .cats{grid-template-columns:repeat(3,1fr)}.iab .ncards{grid-template-columns:1fr 1fr}}
+@media (max-width:767px){.iab .wrap{padding:0 20px}.iab .hero{min-height:80vh}.iab .nums .wrap{grid-template-columns:1fr 1fr;gap:20px}.iab .sec{padding:60px 0}.iab .cats{grid-template-columns:1fr 1fr;gap:12px}.iab .cat{aspect-ratio:auto;min-height:170px;padding:16px}.iab .cat .d{display:none}.iab .cat .t{font-size:1rem;hyphens:none;word-break:keep-all}.iab .cat:last-child{grid-column:span 2;min-height:130px}.iab .steps{grid-template-columns:1fr;gap:16px}.iab .ncards{grid-template-columns:1fr}}
+
+.iab .hero{min-height:72vh;background:linear-gradient(100deg,rgba(20,28,48,.94) 0%,rgba(31,42,68,.78) 50%,rgba(31,42,68,.35) 100%),url('https://images.squarespace-cdn.com/content/v1/69ea67f628079272b93d7376/1777046352349-A1IZKTQ3HJXVZ00TNN89/unsplash-image-fJYJR0VPGqs.jpg?format=2500w') center/cover no-repeat}
+.iab .hero h1{max-width:14ch}
+.iab .two{display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:start}
+.iab .two p.body{font-size:1.1rem;line-height:1.65;margin:0 0 16px;color:var(--ink)}
+.iab .pillars{display:grid;gap:14px}
+.iab .pill{display:flex;gap:16px;align-items:flex-start;background:#fff;border-radius:12px;padding:20px 22px;box-shadow:0 2px 12px rgba(20,28,48,.08);border-left:4px solid var(--gold)}
+.iab .pill svg{flex:0 0 auto;width:34px;height:34px;color:var(--navy)}
+.iab .pill h3{color:var(--navy) !important;font-size:1.1rem;font-weight:700;margin:0 0 4px}
+.iab .pill p{margin:0;line-height:1.5;color:var(--ink)}
+.iab .bg-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.iab .bgc{background:var(--navy);color:#fff;border-radius:12px;padding:28px;position:relative;overflow:hidden}
+.iab .bgc svg{width:44px;height:44px;color:var(--gold);margin-bottom:16px}
+.iab .bgc h3{color:#fff !important;font-size:1.2rem;font-weight:700;margin:0 0 8px}
+.iab .bgc p{margin:0;color:rgba(255,255,255,.85);line-height:1.5}
+.iab .quote{margin:36px 0 0;font-size:clamp(1.3rem,2.4vw,1.8rem);font-weight:700;line-height:1.3;color:var(--navy);border-left:5px solid var(--gold);padding-left:22px;max-width:30ch}
+@media (max-width:900px){.iab .two{grid-template-columns:1fr;gap:28px}.iab .bg-cards{grid-template-columns:1fr}}
+</style>
+<div class="iab">
+
+<section class="bleed hero"><div class="wrap">
+<p class="eyebrow">About Iron &amp; Signal</p>
+<h1>Built on Operational Reality</h1>
+<p class="sub">We separate industrial technology hype from operational reality, judging hardware, software and autonomous systems on one metric: how they actually perform at scale.</p>
+<div class="btns"><a class="btn1" href="/solutions">See Reviewed Categories →</a><a class="btn2" href="#review-desk" data-desk>Talk to the Review Desk</a></div>
+</div></section>
+
+<section class="bleed nums"><div class="wrap">
+<div class="num"><b>20+</b><span>Years in heavy industrial tech</span></div>
+<div class="num"><b>12</b><span>Years of mining tech integration</span></div>
+<div class="num"><b>13</b><span>Tech categories reviewed</span></div>
+<div class="num"><b>0</b><span>Paid placements</span></div>
+</div></section>
+
+<section class="sec"><div class="wrap two">
+<div>
+<p class="kick">What we do</p>
+<h2>Cutting through the marketing noise.</h2>
+<p class="body">Iron &amp; Signal is an independent review platform dedicated to the intersection of heavy physical assets and emerging tech.</p>
+<p class="body">We give BS-free evaluations of the hardware and software shaping the future of heavy industry, so operators can make the call with confidence.</p>
+<p class="quote">We don't just review spec sheets. We know what it takes for technology to survive the site.</p>
+</div>
+<div class="pillars">
+<div class="pill"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M24 4l16 6v12c0 10-7 18-16 22C15 40 8 32 8 22V10z"/><path d="M17 24l5 5 9-10"/></svg><div><h3>Independent</h3><p>No manufacturer pays for placement or sees a review before it's published.</p></div></div>
+<div class="pill"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 40h36"/><path d="M10 40V24l8-6 8 6v16"/><path d="M26 40V14l10-6v32"/><path d="M15 32h6M31 22h2M31 30h2"/></svg><div><h3>Field-first</h3><p>Judged on jobsites, survey crews and mine sites, not in a demo room.</p></div></div>
+<div class="pill"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 12h32M8 24h22M8 36h14"/><path d="M32 32l4 4 8-9"/></svg><div><h3>Straight answers</h3><p>A ranked top 6, a comparison table and a short, honest take on each pick.</p></div></div>
+</div>
+</div></section>
+
+<section class="bleed how sec"><div class="wrap">
+<p class="kick">Our background</p>
+<h2>Two decades on the front lines of operational tech.</h2>
+<p class="lead">The platform is backed by over 20 years of direct experience in heavy industrial technology and global business development.</p>
+<div class="bg-cards">
+<div class="bgc"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 40l12-18 8 10 6-8 14 16z"/><path d="M30 12l6-6M34 16l8-2"/><circle cx="16" cy="14" r="3"/></svg><h3>Global mining</h3><p>12 years driving technology integration in global mining operations.</p></div>
+<div class="bgc"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="37" width="26" height="7" rx="3.5"/><path d="M5 37v-9h18v9"/><path d="M14 28v-8h7l2 8"/><path d="M21 25l11-14 10 9"/><path d="M42 20l3 7h-7z"/></svg><h3>Heavy civil construction</h3><p>Executive leadership at a major heavy civil construction technology dealership.</p></div>
+<div class="bgc"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 42V22l10 6v-6l10 6v-6l10 6V8h8v34z"/><path d="M10 36h4M20 36h4M30 36h4"/></svg><h3>Industrial manufacturing</h3><p>Senior leadership in industrial manufacturing.</p></div>
+</div>
+</div></section>
+
+</div>
+<script>(function(){function hh(){var h=document.querySelector('header#header,.header');var x=document.querySelector('.iab');if(h&&x)x.style.setProperty('--hh',Math.round(h.getBoundingClientRect().height)+'px')}hh();addEventListener('load',hh);addEventListener('resize',hh);document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('[data-desk]');if(!a)return;var s=[].slice.call(document.querySelectorAll('section.page-section')).filter(function(x){return x.querySelector('.sqs-block-form')})[0];if(s){e.preventDefault();s.scrollIntoView({behavior:'smooth'})}})})();</script>
