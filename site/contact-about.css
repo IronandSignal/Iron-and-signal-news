@@ -2,16 +2,16 @@
 /* ===== CONTACT (/contact) — match homepage look ===== */
 section:has(#block-ee8556eef2d87959dc23) .section-background{background:#f4f5f8 !important}
 @media (min-width:768px){
-.fe-block-fd260472d708bcc95e7c{grid-area:2/2/5/12 !important}
-.fe-block-20f57a6f1fd961fdf3e6{grid-area:5/2/20/12 !important}
-.fe-block-ee8556eef2d87959dc23{grid-area:2/14/22/26 !important}
+.fe-block-fd260472d708bcc95e7c{grid-row-start:2 !important;grid-column-start:2 !important;grid-row-end:5 !important;grid-column-end:12 !important}
+.fe-block-20f57a6f1fd961fdf3e6{grid-row-start:5 !important;grid-column-start:2 !important;grid-row-end:20 !important;grid-column-end:12 !important}
+.fe-block-ee8556eef2d87959dc23{grid-row-start:2 !important;grid-column-start:14 !important;grid-row-end:22 !important;grid-column-end:26 !important}
 }
 #block-fd260472d708bcc95e7c h1{font-size:clamp(2.2rem,4vw,3.2rem) !important;font-weight:700 !important;letter-spacing:-.02em;line-height:1.08 !important;color:#1f2a44 !important}
 #block-fd260472d708bcc95e7c .sqs-html-content::before{content:"Get in touch";display:block;font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#8a6a00;margin-bottom:12px}
 #block-20f57a6f1fd961fdf3e6 p{font-size:1.08rem !important;line-height:1.6 !important;color:#1f2a44 !important;margin:0 0 14px !important}
 #block-20f57a6f1fd961fdf3e6 ul{list-style:none !important;padding:0 !important;margin:6px 0 0 !important;display:grid;gap:10px}
 #block-20f57a6f1fd961fdf3e6 li{background:#fff;border-radius:10px;padding:16px 18px !important;margin:0 !important;box-shadow:0 2px 10px rgba(20,28,48,.07);border-left:4px solid #f2b705}
-#block-20f57a6f1fd961fdf3e6 li::before{display:none !important;content:none !important}
+#block-20f57a6f1fd961fdf3e6 li::before,#block-20f57a6f1fd961fdf3e6 li p::before{display:none !important;content:none !important}
 #block-20f57a6f1fd961fdf3e6 li p{margin:0 !important;font-size:1rem !important;line-height:1.45 !important}
 #block-20f57a6f1fd961fdf3e6 a{color:#1f2a44 !important;font-weight:600;text-decoration:none !important;border-bottom:2px solid #f2b705}
 
