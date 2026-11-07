@@ -1,0 +1,33 @@
+
+/* ===== CONTACT (/contact) — match homepage look ===== */
+section:has(#block-ee8556eef2d87959dc23) .section-background{background:#f4f5f8 !important}
+@media (min-width:768px){
+.fe-block-fd260472d708bcc95e7c{grid-area:2/2/5/12 !important}
+.fe-block-20f57a6f1fd961fdf3e6{grid-area:5/2/20/12 !important}
+.fe-block-ee8556eef2d87959dc23{grid-area:2/14/22/26 !important}
+}
+#block-fd260472d708bcc95e7c h1{font-size:clamp(2.2rem,4vw,3.2rem) !important;font-weight:700 !important;letter-spacing:-.02em;line-height:1.08 !important;color:#1f2a44 !important}
+#block-fd260472d708bcc95e7c .sqs-html-content::before{content:"Get in touch";display:block;font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#8a6a00;margin-bottom:12px}
+#block-20f57a6f1fd961fdf3e6 p{font-size:1.08rem !important;line-height:1.6 !important;color:#1f2a44 !important;margin:0 0 14px !important}
+#block-20f57a6f1fd961fdf3e6 ul{list-style:none !important;padding:0 !important;margin:6px 0 0 !important;display:grid;gap:10px}
+#block-20f57a6f1fd961fdf3e6 li{background:#fff;border-radius:10px;padding:16px 18px !important;margin:0 !important;box-shadow:0 2px 10px rgba(20,28,48,.07);border-left:4px solid #f2b705}
+#block-20f57a6f1fd961fdf3e6 li::before{display:none !important;content:none !important}
+#block-20f57a6f1fd961fdf3e6 li p{margin:0 !important;font-size:1rem !important;line-height:1.45 !important}
+#block-20f57a6f1fd961fdf3e6 a{color:#1f2a44 !important;font-weight:600;text-decoration:none !important;border-bottom:2px solid #f2b705}
+
+/* ===== ABOUT: Review Desk band ===== */
+#block-9ebaf47c32f35fe3b1dd h1{font-size:clamp(2rem,3.6vw,2.8rem) !important;font-weight:700 !important;letter-spacing:-.02em;line-height:1.1 !important}
+#block-9ebaf47c32f35fe3b1dd .sqs-html-content::before{content:"The Review Desk";display:block;font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#f2b705;margin-bottom:12px}
+#block-9ebaf47c32f35fe3b1dd p{font-size:1.08rem !important;line-height:1.6 !important}
+
+/* ===== Shared form card (Contact + About) ===== */
+#block-ee8556eef2d87959dc23 .sqs-block-content,#block-dff30fd4f546c83aa9e7 .sqs-block-content{background:#fff;border-radius:14px;padding:34px 34px 30px;box-shadow:0 10px 34px rgba(20,28,48,.14);border-top:4px solid #f2b705}
+:is(#block-ee8556eef2d87959dc23,#block-dff30fd4f546c83aa9e7) :is(label,legend,.caption,span){color:#1f2a44 !important}
+:is(#block-ee8556eef2d87959dc23,#block-dff30fd4f546c83aa9e7) :is(label,legend){font-weight:600 !important;font-size:.92rem !important}
+:is(#block-ee8556eef2d87959dc23,#block-dff30fd4f546c83aa9e7) :is(input[type=text],input[type=email],input[type=tel],textarea,select){border-radius:8px !important;border:1.5px solid #cfd4de !important;background:#fff !important;padding:12px 14px !important;color:#1f2a44 !important;font-family:Inter,sans-serif !important;transition:border-color .15s,box-shadow .15s}
+:is(#block-ee8556eef2d87959dc23,#block-dff30fd4f546c83aa9e7) :is(input,textarea,select):focus{outline:none !important;border-color:#f2b705 !important;box-shadow:0 0 0 3px rgba(242,183,5,.25) !important}
+:is(#block-ee8556eef2d87959dc23,#block-dff30fd4f546c83aa9e7) input[type=checkbox]{accent-color:#1f2a44}
+:is(#block-ee8556eef2d87959dc23,#block-dff30fd4f546c83aa9e7) button[type=submit]{background:#f2b705 !important;color:#1f2a44 !important;border:0 !important;border-radius:999px !important;padding:15px 30px !important;font-family:Inter,sans-serif !important;font-weight:600 !important;font-size:1rem !important;text-transform:none !important;letter-spacing:0 !important;transition:transform .15s,box-shadow .15s}
+:is(#block-ee8556eef2d87959dc23,#block-dff30fd4f546c83aa9e7) button[type=submit] *{color:#1f2a44 !important}
+:is(#block-ee8556eef2d87959dc23,#block-dff30fd4f546c83aa9e7) button[type=submit]:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(20,28,48,.2)}
+@media (max-width:767px){#block-ee8556eef2d87959dc23 .sqs-block-content,#block-dff30fd4f546c83aa9e7 .sqs-block-content{padding:22px 18px}}
