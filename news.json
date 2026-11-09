@@ -1,78 +1,78 @@
 {
-  "week": "Week of Nov 2, 2026",
-  "updated": "2026-11-05",
+  "week": "Week of Nov 9, 2026",
+  "updated": "2026-11-09",
   "stories": [
     {
       "category": "Construction",
-      "url": "https://www.caterpillar.com/en/news/corporate-press-releases/h/3q26-results-caterpillar-inc.html",
-      "image": "1503708928676-1cb796a0891e",
-      "text": "Cat's third-quarter sales climbed 17% to $20.7B, and its order backlog hit a record $78.1B.",
-      "source": "Caterpillar",
-      "date": "Oct 29"
+      "url": "https://www.constructiondive.com/news/skanska-record-order-intake-earnings-q3-2026/873921/",
+      "image": "1793194595231-69bd89911894",
+      "text": "Skanska booked $6.9B in new Q3 work, its second record quarter in a row, helped by strong U.S. data center demand.",
+      "source": "Construction Dive",
+      "date": "Nov 5"
+    },
+    {
+      "category": "Construction",
+      "url": "https://www.enr.com/articles/64200-fluor-wins-epc-contract-for-4b-plus-terawulf-data-center-complex-in-kentucky",
+      "image": "1778066994998-97f74a5bf901",
+      "text": "Fluor landed the EPC deal for TeraWulf's data center campus in Kentucky, a project valued above $4B.",
+      "source": "ENR",
+      "date": "Nov 5"
     },
     {
       "category": "Heavy Civil",
-      "url": "https://rockproducts.com/2026/11/02/construction-spending-dips-in-september/",
-      "image": "1757731054066-ecfc2389146d",
-      "text": "U.S. construction spending slipped 1.9% in September as housing fell, while nonresidential work still edged up.",
-      "source": "Rock Products",
-      "date": "Nov 2"
-    },
-    {
-      "category": "Heavy Civil",
-      "url": "https://fmicorp.com/insights/thought-leadership/2026-civil-infrastructure-construction-index-third-quarter",
-      "image": "1776665759515-6bc5ec675a0f",
-      "text": "FMI's Q3 civil infrastructure index shows contractor confidence and backlog rebounding as cost pressure builds.",
-      "source": "FMI",
-      "date": "Q3 2026"
+      "url": "https://www.constructiondive.com/news/tutor-perini-q3-2026-earnings-not-data-centers/874040/",
+      "image": "1761764445291-2dd6f6a76900",
+      "text": "Tutor Perini is eyeing roughly $200B in possible bids, nearly all of it infrastructure rather than data centers.",
+      "source": "Construction Dive",
+      "date": "Nov 6"
     },
     {
       "category": "Geospatial",
-      "url": "https://bizwest.com/2026/11/04/trimble-revenue-increases-7-in-third-quarter/",
-      "image": "1766830110938-0ea8a6d78ecb",
-      "text": "Trimble grew Q3 revenue 7% to $967M, with annualized recurring revenue reaching a record $2.56B.",
-      "source": "BizWest",
-      "date": "Nov 4"
+      "url": "https://www.constructionequipment.com/technology/construction-technology-software/article/55417035/trimble-drone-processing-software",
+      "image": "1515259387710-51e175f9ec6d",
+      "text": "Trimble rolled out new drone-data processing software aimed at helping contractors track jobsite progress.",
+      "source": "Construction Equipment",
+      "date": "Nov 6"
     },
     {
       "category": "Geospatial",
-      "url": "https://hexagon.com/about/news-media/press-releases/2491677/hexagon-interim-report-1-january-30-september-2026",
-      "image": "1661945072487-bf771c03851c",
-      "text": "Hexagon posted 13% organic growth in the third quarter, its fastest pace in five years.",
-      "source": "Hexagon",
-      "date": "Oct 23"
+      "url": "https://insidegnss.com/u-blox-launches-sam-m11n-a-4-4-gram-gnss-module-with-a-built-in-antenna/",
+      "image": "1770370419338-f9a813302baa",
+      "text": "u-blox unveiled a 4.4-gram GNSS module with its own antenna, built for small trackers and light drones.",
+      "source": "Inside GNSS",
+      "date": "Nov 5"
     },
     {
       "category": "Geospatial",
-      "url": "https://www.geoweeknews.com/articles/costar-group-to-acquire-vexcel-adding-the-worlds-largest-survey-grade-high-resolution-aerial-imagery-program-to-power-richer-search-and-discovery-across-costar-with-tens-of-billions-of-new-a/",
-      "image": "1499750264616-eca69646ae17",
-      "text": "CoStar is buying Vexcel, which runs one of the largest survey-grade aerial imagery programs in the world.",
+      "url": "https://www.geoweeknews.com/articles/ugcs-6-3-extends-large-projects-from-magnetic-surveys-to-lidar/",
+      "image": "1665508473202-c5d46db96604",
+      "text": "SPH Engineering's UgCS 6.3 lets crews plan multi-flight lidar surveys of 100+ hectare sites as a single project.",
       "source": "Geo Week News",
       "date": "Nov 4"
     },
     {
       "category": "Mining",
-      "url": "https://www.mining.com/712-billion-wiped-off-worlds-biggest-mining-companies-since-the-start-of-the-iran-war",
-      "image": "1571223641822-b82408a0e705",
-      "text": "The world's 50 most valuable miners have shed about $712B in value since February as gold and copper cooled.",
-      "source": "MINING.COM",
-      "date": "Nov 2"
+      "url": "https://www.northernminer.com/news/anglogold-bets-900m-on-existing-mines/1003897484/",
+      "image": "1737815914093-becb6c9ac064",
+      "text": "AngloGold Ashanti plans up to $900M to expand three operating mines, aiming for 300,000 to 450,000 more ounces.",
+      "source": "Northern Miner",
+      "date": "Nov 6"
     },
     {
       "category": "Mining",
-      "url": "https://www.mining.com/canada-gold-output-jumps-22-as-global-supply-slips",
-      "image": "1610375461246-83df859d849d",
-      "text": "Canada's gold output jumped 22% even as global mine supply slipped.",
-      "source": "MINING.COM",
-      "date": "Nov 3"
+      "url": "https://www.northernminer.com/news/codelco-faces-production-scandal-tailings-probe/1003897486/",
+      "image": "1628487749130-2d41acb1802a",
+      "text": "Codelco admitted overstating copper output by about 42,100 tonnes, the same day a tailings spill stopped processing at Andina.",
+      "source": "Northern Miner",
+      "date": "Nov 6"
     },
     {
       "category": "Mining",
-      "url": "https://www.mining.com/colombias-mining-rules-reset-puts-billions-back-in-play",
-      "image": "1664565262236-65166affe34a",
-      "text": "Colombia's overhaul of its mining rules could revive stalled projects and put billions back in play.",
-      "source": "MINING.COM",
-      "date": "Nov 4"
+      "url": "https://www.northernminer.com/news/mp-materials-posts-surprise-adjusted-profit/1003897520/",
+      "image": "1560427450-00fa9481f01e",
+      "text": "MP Materials swung to an unexpected adjusted profit as sales of magnet-grade rare earths nearly doubled.",
+      "source": "Northern Miner",
+      "date": "Nov 6"
     }
   ]
 }
