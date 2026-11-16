@@ -121,6 +121,9 @@ section.page-section:has(.imk) .content-wrapper{padding:0 !important;max-width:n
 .imk .filters label{display:grid;gap:5px;font-size:.82rem;font-weight:600}
 .imk .filters input[type=search],.imk .filters input[type=text],.imk .filters input[type=number],.imk .filters select,.imk .sortbox select{width:100%;border:1.5px solid #cfd4de;border-radius:8px;padding:9px 10px;font:inherit;font-weight:400;font-size:.92rem;color:var(--navy);background:#fff}
 .imk .filters :is(input,select):focus,.imk .sortbox select:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 3px rgba(242,183,5,.25)}
+.imk .filters input,.imk .filters select{max-width:100% !important;min-width:0 !important;box-sizing:border-box !important;-webkit-appearance:none;appearance:none}
+.imk .filters select{background-image:linear-gradient(45deg,transparent 50%,#1f2a44 50%),linear-gradient(135deg,#1f2a44 50%,transparent 50%) !important;background-position:calc(100% - 16px) 50%,calc(100% - 11px) 50% !important;background-size:5px 5px !important;background-repeat:no-repeat !important;padding-right:28px !important}
+.imk .filters input[type=checkbox]{-webkit-appearance:auto;appearance:auto}
 .imk .filters .row2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .imk .filters fieldset{border:0;padding:0;margin:0}
 .imk .filters legend{font-size:.82rem;font-weight:600;margin-bottom:6px}
