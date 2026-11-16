@@ -1,78 +1,78 @@
 {
-  "week": "Week of Nov 9, 2026",
-  "updated": "2026-11-09",
+  "week": "Week of Nov 16, 2026",
+  "updated": "2026-11-16",
   "stories": [
     {
       "category": "Construction",
-      "url": "https://www.constructiondive.com/news/skanska-record-order-intake-earnings-q3-2026/873921/",
-      "image": "1793194595231-69bd89911894",
-      "text": "Skanska booked $6.9B in new Q3 work, its second record quarter in a row, helped by strong U.S. data center demand.",
+      "url": "https://www.constructiondive.com/news/gilbane-alaska-kodiak-coast-guard-water/874438/",
+      "image": "1660367439240-d38cb03a4365",
+      "text": "Gilbane Federal won a $114M Coast Guard job to rebuild Base Kodiak's water system, including more than eight miles of new main.",
       "source": "Construction Dive",
-      "date": "Nov 5"
+      "date": "Nov 11"
     },
     {
       "category": "Construction",
-      "url": "https://www.enr.com/articles/64200-fluor-wins-epc-contract-for-4b-plus-terawulf-data-center-complex-in-kentucky",
-      "image": "1778066994998-97f74a5bf901",
-      "text": "Fluor landed the EPC deal for TeraWulf's data center campus in Kentucky, a project valued above $4B.",
+      "url": "https://www.enr.com/articles/64271-construction-prices-remain-flat-in-october-steel-and-copper-costs-surge",
+      "image": "1786618315979-2dbbfd3b38a7",
+      "text": "Input costs held steady in October but sit 11.5% above last year, with steel mill products up about a third.",
       "source": "ENR",
-      "date": "Nov 5"
+      "date": "Nov 13"
     },
     {
       "category": "Heavy Civil",
-      "url": "https://www.constructiondive.com/news/tutor-perini-q3-2026-earnings-not-data-centers/874040/",
-      "image": "1761764445291-2dd6f6a76900",
-      "text": "Tutor Perini is eyeing roughly $200B in possible bids, nearly all of it infrastructure rather than data centers.",
-      "source": "Construction Dive",
-      "date": "Nov 6"
+      "url": "https://www.enr.com/articles/64257-75b-big-bend-border-construction-program-back-on-in-texas-for-now",
+      "image": "1610477865545-37711c53144d",
+      "text": "A Supreme Court stay restarts roughly $7.5B in Big Bend border contracts held by Kiewit, Barnard and others, pending a final ruling.",
+      "source": "ENR",
+      "date": "Nov 10"
     },
     {
       "category": "Geospatial",
-      "url": "https://www.constructionequipment.com/technology/construction-technology-software/article/55417035/trimble-drone-processing-software",
-      "image": "1515259387710-51e175f9ec6d",
-      "text": "Trimble rolled out new drone-data processing software aimed at helping contractors track jobsite progress.",
-      "source": "Construction Equipment",
-      "date": "Nov 6"
-    },
-    {
-      "category": "Geospatial",
-      "url": "https://insidegnss.com/u-blox-launches-sam-m11n-a-4-4-gram-gnss-module-with-a-built-in-antenna/",
-      "image": "1770370419338-f9a813302baa",
-      "text": "u-blox unveiled a 4.4-gram GNSS module with its own antenna, built for small trackers and light drones.",
-      "source": "Inside GNSS",
-      "date": "Nov 5"
-    },
-    {
-      "category": "Geospatial",
-      "url": "https://www.geoweeknews.com/articles/ugcs-6-3-extends-large-projects-from-magnetic-surveys-to-lidar/",
-      "image": "1665508473202-c5d46db96604",
-      "text": "SPH Engineering's UgCS 6.3 lets crews plan multi-flight lidar surveys of 100+ hectare sites as a single project.",
+      "url": "https://www.geoweeknews.com/articles/leica-geosystems-introduces-leica-dmc-5-large-format-camera-for-more-efficient-airborne-mapping/",
+      "image": "1532961432136-ca37cae5fa4a",
+      "text": "Leica Geosystems launched the DMC-5 aerial mapping camera, which it says gathers over 30% more imagery per flight than earlier models.",
       "source": "Geo Week News",
-      "date": "Nov 4"
+      "date": "Nov 10"
+    },
+    {
+      "category": "Geospatial",
+      "url": "https://www.gpsworld.com/u-k-tender-on-resilient-pnt/",
+      "image": "1590433333434-09df2b2a35a5",
+      "text": "The UK's Dstl is seeking industry input on a timing and positioning system that keeps working when GNSS is jammed or degraded.",
+      "source": "GPS World",
+      "date": "Nov 12"
+    },
+    {
+      "category": "Geospatial",
+      "url": "https://www.gpsworld.com/taoglas-introduces-crpa-reference-design-for-resilient-gnss-development/",
+      "image": "1745697213293-21d6c972ac1a",
+      "text": "Taoglas released an off-the-shelf reference design for anti-jam CRPA antennas, aimed at speeding up resilient GNSS product development.",
+      "source": "GPS World",
+      "date": "Nov 15"
     },
     {
       "category": "Mining",
-      "url": "https://www.northernminer.com/news/anglogold-bets-900m-on-existing-mines/1003897484/",
-      "image": "1737815914093-becb6c9ac064",
-      "text": "AngloGold Ashanti plans up to $900M to expand three operating mines, aiming for 300,000 to 450,000 more ounces.",
+      "url": "https://www.northernminer.com/news/freeport-strikes-110m-deal-for-bc-copper-stake/1003897770/",
+      "image": "1571223641822-b82408a0e705",
+      "text": "Freeport-McMoRan will pay about US$77M for 51% of TDG Gold's Aurora West copper project in BC's Toodoggone district.",
       "source": "Northern Miner",
-      "date": "Nov 6"
+      "date": "Nov 13"
     },
     {
       "category": "Mining",
-      "url": "https://www.northernminer.com/news/codelco-faces-production-scandal-tailings-probe/1003897486/",
-      "image": "1628487749130-2d41acb1802a",
-      "text": "Codelco admitted overstating copper output by about 42,100 tonnes, the same day a tailings spill stopped processing at Andina.",
+      "url": "https://www.northernminer.com/news/paladin-seeks-a525m-for-saskatchewan-uranium/1003897731/",
+      "image": "1664565262236-65166affe34a",
+      "text": "Paladin Energy is raising A$525M to build its Patterson Lake South uranium mine in Saskatchewan, targeting first output in 2031.",
       "source": "Northern Miner",
-      "date": "Nov 6"
+      "date": "Nov 12"
     },
     {
       "category": "Mining",
-      "url": "https://www.northernminer.com/news/mp-materials-posts-surprise-adjusted-profit/1003897520/",
-      "image": "1560427450-00fa9481f01e",
-      "text": "MP Materials swung to an unexpected adjusted profit as sales of magnet-grade rare earths nearly doubled.",
+      "url": "https://www.northernminer.com/news/mineros-gold-bet-raises-cash-and-collateral-risks/1003897790/",
+      "image": "1762463176312-1757d5125c85",
+      "text": "Mineros spent US$137M stockpiling gold bullion last quarter, and one analyst warns the strategy adds margin-call and cash risks.",
       "source": "Northern Miner",
-      "date": "Nov 6"
+      "date": "Nov 13"
     }
   ]
 }
