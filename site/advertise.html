@@ -1,0 +1,159 @@
+<style>
+section.page-section:has(.iad){min-height:0 !important;padding:0 !important}
+section.page-section:has(.iad) .content-wrapper{padding:0 !important;max-width:none !important}
+.fluid-engine:has(.iad){grid-template-rows:unset !important}
+.fluid-engine:has(.iad) > .fe-block:not(:has(.iad)){display:none !important}
+.fluid-engine:has(.iad) > .fe-block:has(.iad){grid-row-start:1 !important;grid-row-end:-1 !important;grid-column-start:1 !important;grid-column-end:-1 !important}
+.sqs-block:has(.iad){padding:0 !important}
+
+section.page-section:has(.iad){min-height:0 !important;padding:0 !important}
+section.page-section:has(.iad) .content-wrapper{padding:0 !important;max-width:none !important}
+.fluid-engine:has(.iad){grid-template-rows:unset !important}
+.sqs-block:has(.iad){padding:0 !important}
+.iad{--navy:#1f2a44;--deep:#141c30;--gold:#f2b705;--ink:#1f2a44;color:var(--ink);font-family:Inter,system-ui,sans-serif}
+.iad *{box-sizing:border-box}
+.iad .bleed{width:100vw;position:relative;left:50%;right:50%;margin-left:-50vw;margin-right:-50vw}
+.iad .wrap{max-width:1240px;margin:0 auto;padding:0 32px}
+.iad a{text-decoration:none}
+/* hero */
+.iad .hero{min-height:88vh;display:flex;align-items:center;background:linear-gradient(100deg,rgba(20,28,48,.92) 0%,rgba(31,42,68,.72) 48%,rgba(31,42,68,.25) 100%),url('https://images.squarespace-cdn.com/content/v1/69ea67f628079272b93d7376/1776973813644-M8YEGN090B684NV7N1L2/unsplash-image-EN1tF2EG-50.jpg?format=2500w') center/cover no-repeat;color:#fff}
+.iad .hero .wrap{width:100%;padding-top:calc(var(--hh,200px) + 28px);padding-bottom:72px}
+.iad .eyebrow{display:inline-block;font-size:.78em;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:0 0 18px}
+.iad .hero h1{color:#fff !important;font-size:clamp(2.6rem,6vw,4.8rem);line-height:1.04;font-weight:700;letter-spacing:-.02em;margin:0 0 20px;max-width:12ch}
+.iad .hero p.sub{color:rgba(255,255,255,.9);font-size:clamp(1.05rem,1.6vw,1.3rem);line-height:1.5;max-width:46ch;margin:0 0 32px}
+.iad .btns{display:flex;flex-wrap:wrap;gap:14px}
+.iad .btn1,.iad .btn2{display:inline-flex;align-items:center;gap:8px;padding:15px 26px;border-radius:999px;font-weight:600;font-size:1rem;transition:transform .15s ease,box-shadow .15s ease,background .15s ease}
+.iad .btn1{background:var(--gold);color:var(--navy) !important}
+.iad .btn2{border:2px solid rgba(255,255,255,.85);color:#fff !important}
+.iad .btn1:hover,.iad .btn2:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.iad .btn2:hover{background:rgba(255,255,255,.1)}
+/* numbers */
+.iad .nums{background:var(--navy);color:#fff}
+.iad .nums .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;padding-top:40px;padding-bottom:40px}
+.iad .num b{display:block;font-size:clamp(2rem,4vw,3rem);font-weight:800;color:var(--gold);line-height:1;letter-spacing:-.02em}
+.iad .num span{display:block;margin-top:8px;font-size:.92em;color:rgba(255,255,255,.85);font-weight:500}
+/* section heads */
+.iad .sec{padding:84px 0}
+.iad .kick{font-size:.78em;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#8a6a00;margin:0 0 10px}
+.iad h2{color:var(--navy) !important;font-size:clamp(1.8rem,3.4vw,2.6rem);font-weight:700;letter-spacing:-.02em;line-height:1.12;margin:0 0 12px}
+.iad .lead{font-size:1.1rem;line-height:1.55;max-width:58ch;margin:0 0 36px;color:var(--ink)}
+.iad .headrow{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap}
+.iad .more{font-weight:600;color:var(--navy) !important;border-bottom:3px solid var(--gold);padding-bottom:2px;margin-bottom:36px}
+/* category tiles */
+.iad .cats{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+.iad .cat{position:relative;display:flex;flex-direction:column;justify-content:space-between;aspect-ratio:1/1.08;padding:22px;background:var(--navy);color:#fff !important;border-radius:12px;overflow:hidden;transition:transform .15s ease,box-shadow .15s ease}
+.iad .cat::after{content:"";position:absolute;inset:0;border:3px solid var(--gold);border-radius:12px;opacity:0;transition:opacity .15s ease;pointer-events:none}
+.iad .cat:hover{transform:translateY(-5px);box-shadow:0 14px 30px rgba(20,28,48,.3)}
+.iad .cat:hover::after{opacity:1}
+.iad .cat svg{width:46px;height:46px}
+.iad .cat .t{font-size:1.15rem;font-weight:700;margin:14px 0 6px;color:#fff}
+.iad .cat .d{font-size:.86rem;line-height:1.4;color:rgba(255,255,255,.82);margin:0}
+.iad .cat .go{font-size:.8rem;font-weight:700;letter-spacing:.06em;color:var(--gold);margin-top:12px}
+/* steps */
+.iad .how{background:#fff}
+.iad .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.iad .step{padding:28px;border:1px solid rgba(31,42,68,.12);border-radius:12px;background:#fff}
+.iad .step .n{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:var(--gold);color:var(--navy);font-weight:800;font-size:1.1rem;margin-bottom:16px}
+.iad .step h3{color:var(--navy) !important;font-size:1.25rem;font-weight:700;margin:0 0 8px}
+.iad .step p{margin:0;line-height:1.55;color:var(--ink)}
+/* news */
+.iad .ncards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.iad .nc{display:flex;flex-direction:column;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 10px rgba(20,28,48,.08);color:var(--ink) !important;transition:transform .15s ease,box-shadow .15s ease}
+.iad .nc:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(20,28,48,.18)}
+.iad .nc img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block}
+.iad .nc .nb{padding:16px 18px 18px}
+.iad .nc .tg{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;background:var(--navy);color:#fff;padding:4px 8px;border-radius:4px;margin-bottom:10px}
+.iad .nc .tx{font-size:1rem;font-weight:600;line-height:1.4;margin:0 0 10px;color:var(--ink)}
+.iad .nc .sr{font-size:.82rem;opacity:.75}
+.iad .tick{margin-top:28px;border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 2px 10px rgba(20,28,48,.08)}
+/* cta */
+.iad .cta{background:linear-gradient(rgba(20,28,48,.88),rgba(20,28,48,.88)),url('https://images.unsplash.com/photo-1571223641822-b82408a0e705?auto=format&fit=crop&w=2000&q=70') center/cover;color:#fff;text-align:center}
+.iad .cta .wrap{padding-top:88px;padding-bottom:88px}
+.iad .cta h2{color:#fff !important;margin-bottom:12px}
+.iad .cta p{color:rgba(255,255,255,.88);font-size:1.15rem;margin:0 auto 30px;max-width:48ch}
+.iad .cta .btns{justify-content:center}
+@media (max-width:1000px){.iad .cats{grid-template-columns:repeat(3,1fr)}.iad .ncards{grid-template-columns:1fr 1fr}}
+@media (max-width:767px){.iad .wrap{padding:0 20px}.iad .hero{min-height:80vh}.iad .nums .wrap{grid-template-columns:1fr 1fr;gap:20px}.iad .sec{padding:60px 0}.iad .cats{grid-template-columns:1fr 1fr;gap:12px}.iad .cat{aspect-ratio:auto;min-height:170px;padding:16px}.iad .cat .d{display:none}.iad .cat .t{font-size:1rem;hyphens:none;word-break:keep-all}.iad .cat:last-child{grid-column:span 2;min-height:130px}.iad .steps{grid-template-columns:1fr;gap:16px}.iad .ncards{grid-template-columns:1fr}}
+.iad .cats.c4{grid-template-columns:repeat(4,1fr)}
+.iad .cats.c4 .cat{aspect-ratio:auto;min-height:170px}
+.iad .ad{background:linear-gradient(100deg,#141c30,#1f2a44);color:#fff;border-radius:14px;padding:40px 44px;display:flex;align-items:center;justify-content:space-between;gap:28px;flex-wrap:wrap;border-left:6px solid var(--gold)}
+.iad .ad h2{color:#fff !important;margin:0 0 8px}
+.iad .ad p{margin:0;color:rgba(255,255,255,.85);max-width:56ch;line-height:1.55}
+@media (max-width:1000px){.iad .cats.c4{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:767px){.iad .cats.c4 .cat{min-height:120px}.iad .ad{padding:28px 22px}}
+.iad .cchips{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.iad .cchip{display:flex;align-items:center;gap:12px;background:var(--navy);color:#fff !important;border-radius:12px;padding:14px 16px;position:relative;transition:transform .15s,box-shadow .15s}
+.iad .cchip svg{width:30px;height:30px;flex:0 0 auto}
+.iad .cchip span{font-weight:700;font-size:.95rem;line-height:1.25}
+.iad .cchip em{font-style:normal;margin-left:auto;font-size:.8rem;font-weight:700;color:var(--gold)}
+.iad .cchip:hover,.iad .cchip.on{transform:translateY(-3px);box-shadow:0 10px 24px rgba(20,28,48,.25);outline:3px solid var(--gold);outline-offset:-3px}
+@media (max-width:767px){.iad .cchips{grid-template-columns:1fr 1fr}.iad .cchip span{font-size:.85rem}}
+.iad .hero{min-height:46vh;background:linear-gradient(100deg,rgba(20,28,48,.95) 0%,rgba(31,42,68,.82) 55%,rgba(31,42,68,.45) 100%),url('https://images.unsplash.com/photo-1776665759515-6bc5ec675a0f?auto=format&fit=crop&w=2200&q=70') center/cover no-repeat}
+.iad .hero h1{max-width:18ch}
+.iad .slots{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.iad .slot{background:#fff;border-radius:12px;padding:26px;box-shadow:0 2px 12px rgba(20,28,48,.08);border-top:4px solid var(--gold);display:flex;flex-direction:column}
+.iad .slot .tg{display:inline-block;align-self:flex-start;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;background:var(--navy);color:#fff;padding:4px 8px;border-radius:4px;margin-bottom:12px}
+.iad .slot h3{color:var(--navy) !important;font-size:1.2rem;font-weight:700;margin:0 0 8px}
+.iad .slot p{margin:0 0 12px;line-height:1.55}
+.iad .slot ul{margin:auto 0 0;padding-left:18px;line-height:1.6;font-size:.94rem}
+.iad .who{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.iad .who div{background:var(--navy);color:#fff;border-radius:12px;padding:20px}
+.iad .who b{display:block;color:var(--gold);font-size:1.05rem;margin-bottom:6px}
+.iad .who span{color:rgba(255,255,255,.85);font-size:.92rem;line-height:1.45}
+.iad .rules{columns:2;column-gap:36px;line-height:1.6;padding-left:18px;margin:0}
+.iad .rules li{margin-bottom:8px;break-inside:avoid}
+@media (max-width:1000px){.iad .slots{grid-template-columns:1fr 1fr}.iad .who{grid-template-columns:1fr 1fr}}
+@media (max-width:767px){.iad .slots,.iad .who{grid-template-columns:1fr}.iad .rules{columns:1}}
+</style>
+<div class="iad">
+<section class="bleed hero"><div class="wrap">
+<p class="eyebrow">Advertise with Iron &amp; Signal</p>
+<h1>Put your brand in front of buyers.</h1>
+<p class="sub">Reach contractors, surveyors, fleet managers and mine operators while they're shopping for equipment and catching up on the week's news. Simple placements, flat monthly pricing.</p>
+<div class="btns"><a class="btn1" href="mailto:info@ironandsignal.com?subject=Advertising%20inquiry">Request the Media Kit →</a><a class="btn2" href="/appointments">Book a Call</a></div>
+</div></section>
+
+<section class="sec"><div class="wrap">
+<p class="kick">Who you'll reach</p>
+<h2>People who buy and run the equipment.</h2>
+<div class="who">
+<div><b>Contractors</b><span>Earthmoving, site work and heavy civil crews buying and upgrading gear.</span></div>
+<div><b>Surveyors</b><span>Survey and geospatial teams shopping GNSS, total stations, scanners and drones.</span></div>
+<div><b>Fleet &amp; equipment managers</b><span>The people who spec, buy and sell machines and tech.</span></div>
+<div><b>Mining operations</b><span>Mine site teams following autonomy, productivity tech and industry news.</span></div>
+</div>
+</div></section>
+
+<section class="bleed how sec"><div class="wrap">
+<p class="kick">Ad placements</p>
+<h2>Pick your spot.</h2>
+<p class="lead">All placements are flat monthly rates with no auctions or bidding. Ask for the media kit for current traffic and pricing.</p>
+<div class="slots">
+<div class="slot"><span class="tg">Homepage</span><h3>Homepage Banner</h3><p>A full-width brand banner on the Iron &amp; Signal homepage, seen by every new visitor.</p><ul><li>One advertiser at a time</li><li>Links to your site or landing page</li></ul></div>
+<div class="slot"><span class="tg">Industry News</span><h3>News Sponsor</h3><p>"This week's news is presented by" placement at the top of the weekly Industry News page.</p><ul><li>Refreshed every Monday</li><li>Logo, tagline and link</li></ul></div>
+<div class="slot"><span class="tg">Marketplace</span><h3>Category Sponsor</h3><p>Own a marketplace category, like "Total Stations &amp; GNSS presented by" your brand.</p><ul><li>Shown to buyers in that category</li><li>Great for manufacturers and dealers</li></ul></div>
+<div class="slot"><span class="tg">Dealers</span><h3>Dealer Spotlight</h3><p>Feature your dealership's inventory with a branded profile and Featured listings.</p><ul><li>Gold Featured badge on your listings</li><li>Pinned to the top of categories</li></ul></div>
+<div class="slot"><span class="tg">Newsletter</span><h3>Newsletter Sponsor</h3><p>A sponsor slot in the Iron &amp; Signal newsletter, delivered straight to subscribers' inboxes.</p><ul><li>Biweekly send</li><li>Logo, short message and link</li></ul></div>
+<div class="slot"><span class="tg">Custom</span><h3>Something Else in Mind?</h3><p>Product launch, trade show push or a regional campaign. Let's build a package that fits.</p><ul><li>Bundles across placements</li><li>3, 6 and 12 month options</li></ul></div>
+</div>
+</div></section>
+
+<section class="sec"><div class="wrap">
+<p class="kick">Ad guidelines</p>
+<h2>Keeping it useful for readers.</h2>
+<ul class="rules">
+<li>All ads are clearly labeled as sponsored.</li>
+<li>Advertisers don't control news coverage, listings or what other sellers post.</li>
+<li>We review every ad before it runs and can decline any ad.</li>
+<li>No misleading claims, and no ads for prohibited items listed in our <a href="/marketplace-terms" style="color:var(--navy);border-bottom:2px solid var(--gold)">Marketplace Terms</a>.</li>
+</ul>
+</div></section>
+
+<section class="bleed cta"><div class="wrap">
+<p class="eyebrow">Let's talk</p>
+<h2>Ready to reach the right buyers?</h2>
+<p>Email us for the media kit, current traffic numbers and monthly rates.</p>
+<div class="btns"><a class="btn1" href="mailto:info@ironandsignal.com?subject=Advertising%20inquiry">Email info@ironandsignal.com →</a><a class="btn2" href="/contact">Contact Form</a></div>
+</div></section>
+</div>
+<script>(function(){function hh(){var h=document.querySelector('header#header,.header');var x=document.querySelector('.iad');if(h&&x)x.style.setProperty('--hh',Math.round(h.getBoundingClientRect().height)+'px')}hh();addEventListener('load',hh);addEventListener('resize',hh)})();</script>
