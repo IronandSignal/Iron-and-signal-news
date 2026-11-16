@@ -1,0 +1,157 @@
+<style>
+section.page-section:has(.imk){min-height:0 !important;padding:0 !important}
+section.page-section:has(.imk) .content-wrapper{padding:0 !important;max-width:none !important}
+.fluid-engine:has(.imk){grid-template-rows:unset !important}
+.fluid-engine:has(.imk) > .fe-block:not(:has(.imk)){display:none !important}
+.fluid-engine:has(.imk) > .fe-block:has(.imk){grid-row-start:1 !important;grid-row-end:-1 !important;grid-column-start:1 !important;grid-column-end:-1 !important}
+.sqs-block:has(.imk){padding:0 !important}
+
+section.page-section:has(.imk){min-height:0 !important;padding:0 !important}
+section.page-section:has(.imk) .content-wrapper{padding:0 !important;max-width:none !important}
+.fluid-engine:has(.imk){grid-template-rows:unset !important}
+.sqs-block:has(.imk){padding:0 !important}
+.imk{--navy:#1f2a44;--deep:#141c30;--gold:#f2b705;--ink:#1f2a44;color:var(--ink);font-family:Inter,system-ui,sans-serif}
+.imk *{box-sizing:border-box}
+.imk .bleed{width:100vw;position:relative;left:50%;right:50%;margin-left:-50vw;margin-right:-50vw}
+.imk .wrap{max-width:1240px;margin:0 auto;padding:0 32px}
+.imk a{text-decoration:none}
+/* hero */
+.imk .hero{min-height:88vh;display:flex;align-items:center;background:linear-gradient(100deg,rgba(20,28,48,.92) 0%,rgba(31,42,68,.72) 48%,rgba(31,42,68,.25) 100%),url('https://images.squarespace-cdn.com/content/v1/69ea67f628079272b93d7376/1776973813644-M8YEGN090B684NV7N1L2/unsplash-image-EN1tF2EG-50.jpg?format=2500w') center/cover no-repeat;color:#fff}
+.imk .hero .wrap{width:100%;padding-top:calc(var(--hh,200px) + 28px);padding-bottom:72px}
+.imk .eyebrow{display:inline-block;font-size:.78em;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:0 0 18px}
+.imk .hero h1{color:#fff !important;font-size:clamp(2.6rem,6vw,4.8rem);line-height:1.04;font-weight:700;letter-spacing:-.02em;margin:0 0 20px;max-width:12ch}
+.imk .hero p.sub{color:rgba(255,255,255,.9);font-size:clamp(1.05rem,1.6vw,1.3rem);line-height:1.5;max-width:46ch;margin:0 0 32px}
+.imk .btns{display:flex;flex-wrap:wrap;gap:14px}
+.imk .btn1,.imk .btn2{display:inline-flex;align-items:center;gap:8px;padding:15px 26px;border-radius:999px;font-weight:600;font-size:1rem;transition:transform .15s ease,box-shadow .15s ease,background .15s ease}
+.imk .btn1{background:var(--gold);color:var(--navy) !important}
+.imk .btn2{border:2px solid rgba(255,255,255,.85);color:#fff !important}
+.imk .btn1:hover,.imk .btn2:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+.imk .btn2:hover{background:rgba(255,255,255,.1)}
+/* numbers */
+.imk .nums{background:var(--navy);color:#fff}
+.imk .nums .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;padding-top:40px;padding-bottom:40px}
+.imk .num b{display:block;font-size:clamp(2rem,4vw,3rem);font-weight:800;color:var(--gold);line-height:1;letter-spacing:-.02em}
+.imk .num span{display:block;margin-top:8px;font-size:.92em;color:rgba(255,255,255,.85);font-weight:500}
+/* section heads */
+.imk .sec{padding:84px 0}
+.imk .kick{font-size:.78em;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#8a6a00;margin:0 0 10px}
+.imk h2{color:var(--navy) !important;font-size:clamp(1.8rem,3.4vw,2.6rem);font-weight:700;letter-spacing:-.02em;line-height:1.12;margin:0 0 12px}
+.imk .lead{font-size:1.1rem;line-height:1.55;max-width:58ch;margin:0 0 36px;color:var(--ink)}
+.imk .headrow{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap}
+.imk .more{font-weight:600;color:var(--navy) !important;border-bottom:3px solid var(--gold);padding-bottom:2px;margin-bottom:36px}
+/* category tiles */
+.imk .cats{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+.imk .cat{position:relative;display:flex;flex-direction:column;justify-content:space-between;aspect-ratio:1/1.08;padding:22px;background:var(--navy);color:#fff !important;border-radius:12px;overflow:hidden;transition:transform .15s ease,box-shadow .15s ease}
+.imk .cat::after{content:"";position:absolute;inset:0;border:3px solid var(--gold);border-radius:12px;opacity:0;transition:opacity .15s ease;pointer-events:none}
+.imk .cat:hover{transform:translateY(-5px);box-shadow:0 14px 30px rgba(20,28,48,.3)}
+.imk .cat:hover::after{opacity:1}
+.imk .cat svg{width:46px;height:46px}
+.imk .cat .t{font-size:1.15rem;font-weight:700;margin:14px 0 6px;color:#fff}
+.imk .cat .d{font-size:.86rem;line-height:1.4;color:rgba(255,255,255,.82);margin:0}
+.imk .cat .go{font-size:.8rem;font-weight:700;letter-spacing:.06em;color:var(--gold);margin-top:12px}
+/* steps */
+.imk .how{background:#fff}
+.imk .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.imk .step{padding:28px;border:1px solid rgba(31,42,68,.12);border-radius:12px;background:#fff}
+.imk .step .n{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:var(--gold);color:var(--navy);font-weight:800;font-size:1.1rem;margin-bottom:16px}
+.imk .step h3{color:var(--navy) !important;font-size:1.25rem;font-weight:700;margin:0 0 8px}
+.imk .step p{margin:0;line-height:1.55;color:var(--ink)}
+/* news */
+.imk .ncards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.imk .nc{display:flex;flex-direction:column;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 10px rgba(20,28,48,.08);color:var(--ink) !important;transition:transform .15s ease,box-shadow .15s ease}
+.imk .nc:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(20,28,48,.18)}
+.imk .nc img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block}
+.imk .nc .nb{padding:16px 18px 18px}
+.imk .nc .tg{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;background:var(--navy);color:#fff;padding:4px 8px;border-radius:4px;margin-bottom:10px}
+.imk .nc .tx{font-size:1rem;font-weight:600;line-height:1.4;margin:0 0 10px;color:var(--ink)}
+.imk .nc .sr{font-size:.82rem;opacity:.75}
+.imk .tick{margin-top:28px;border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 2px 10px rgba(20,28,48,.08)}
+/* cta */
+.imk .cta{background:linear-gradient(rgba(20,28,48,.88),rgba(20,28,48,.88)),url('https://images.unsplash.com/photo-1571223641822-b82408a0e705?auto=format&fit=crop&w=2000&q=70') center/cover;color:#fff;text-align:center}
+.imk .cta .wrap{padding-top:88px;padding-bottom:88px}
+.imk .cta h2{color:#fff !important;margin-bottom:12px}
+.imk .cta p{color:rgba(255,255,255,.88);font-size:1.15rem;margin:0 auto 30px;max-width:48ch}
+.imk .cta .btns{justify-content:center}
+@media (max-width:1000px){.imk .cats{grid-template-columns:repeat(3,1fr)}.imk .ncards{grid-template-columns:1fr 1fr}}
+@media (max-width:767px){.imk .wrap{padding:0 20px}.imk .hero{min-height:80vh}.imk .nums .wrap{grid-template-columns:1fr 1fr;gap:20px}.imk .sec{padding:60px 0}.imk .cats{grid-template-columns:1fr 1fr;gap:12px}.imk .cat{aspect-ratio:auto;min-height:170px;padding:16px}.imk .cat .d{display:none}.imk .cat .t{font-size:1rem;hyphens:none;word-break:keep-all}.imk .cat:last-child{grid-column:span 2;min-height:130px}.imk .steps{grid-template-columns:1fr;gap:16px}.imk .ncards{grid-template-columns:1fr}}
+.imk .cats.c4{grid-template-columns:repeat(4,1fr)}
+.imk .cats.c4 .cat{aspect-ratio:auto;min-height:170px}
+.imk .ad{background:linear-gradient(100deg,#141c30,#1f2a44);color:#fff;border-radius:14px;padding:40px 44px;display:flex;align-items:center;justify-content:space-between;gap:28px;flex-wrap:wrap;border-left:6px solid var(--gold)}
+.imk .ad h2{color:#fff !important;margin:0 0 8px}
+.imk .ad p{margin:0;color:rgba(255,255,255,.85);max-width:56ch;line-height:1.55}
+@media (max-width:1000px){.imk .cats.c4{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:767px){.imk .cats.c4 .cat{min-height:120px}.imk .ad{padding:28px 22px}}
+
+.imk .hero{min-height:62vh;background:linear-gradient(100deg,rgba(20,28,48,.94) 0%,rgba(31,42,68,.8) 52%,rgba(31,42,68,.4) 100%),url('https://images.unsplash.com/photo-1503708928676-1cb796a0891e?auto=format&fit=crop&w=2200&q=70') center/cover no-repeat}
+.imk .hero h1{max-width:15ch}
+.imk .lgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.imk .lc{display:flex;flex-direction:column;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 10px rgba(20,28,48,.08);color:var(--ink) !important;position:relative;transition:transform .15s,box-shadow .15s}
+.imk .lc:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(20,28,48,.18)}
+.imk .lc img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#e0e0db}
+.imk .lc .lb{padding:16px 18px 18px}
+.imk .lc .lt{font-weight:700;font-size:1.05rem;margin:0 0 6px;color:var(--navy)}
+.imk .lc .lx{font-size:.9rem;line-height:1.45;margin:0;opacity:.85}
+.imk .lc .lcat{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;background:var(--navy);color:#fff;padding:4px 8px;border-radius:4px;margin-bottom:10px}
+.imk .lc .feat{position:absolute;top:12px;left:12px;background:var(--gold);color:var(--navy);font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:5px 10px;border-radius:999px}
+.imk .empty{background:#fff;border-radius:14px;padding:40px;text-align:center;box-shadow:0 2px 10px rgba(20,28,48,.08);border-top:4px solid var(--gold)}
+.imk .empty h3{color:var(--navy) !important;font-size:1.4rem;margin:0 0 8px}
+.imk .empty p{margin:0 auto 22px;max-width:52ch;line-height:1.55}
+.imk .tips{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.imk .tip{background:#fff;border-radius:10px;padding:18px 20px;border-left:4px solid var(--gold);box-shadow:0 2px 10px rgba(20,28,48,.07);line-height:1.5}
+.imk .tip b{color:var(--navy)}
+.imk .note{margin-top:22px;font-size:.92rem;opacity:.85}
+.imk .note a{color:var(--navy) !important;border-bottom:2px solid var(--gold)}
+.imk .featbox{margin-top:28px;background:var(--navy);color:#fff;border-radius:14px;padding:30px 34px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.imk .featbox h3{color:#fff !important;margin:0 0 6px;font-size:1.3rem}
+.imk .featbox p{margin:0;color:rgba(255,255,255,.85);max-width:58ch;line-height:1.5}
+@media (max-width:1000px){.imk .lgrid{grid-template-columns:1fr 1fr}}
+@media (max-width:767px){.imk .lgrid,.imk .tips{grid-template-columns:1fr}.imk .empty{padding:28px 20px}}
+</style>
+<div class="imk">
+
+<section class="bleed hero"><div class="wrap">
+<p class="eyebrow">Used Equipment Marketplace</p>
+<h1>Buy and sell used heavy equipment.</h1>
+<p class="sub">Construction, survey and mining equipment from contractors, dealers and fleets. Every listing is checked before it goes live, and buyers deal directly with sellers.</p>
+<div class="btns"><a class="btn1" href="#latest" data-jump="latest">Browse Listings ↓</a><a class="btn2" href="/sell">List Your Equipment Free</a></div>
+</div></section>
+
+<section class="sec"><div class="wrap">
+<p class="kick">Shop by category</p>
+<h2>What are you looking for?</h2>
+<p class="lead">Pick a category to see what's listed right now.</p>
+<div class="cats c4"><a class="cat" href="/listings?category=Excavators"><div><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="37" width="26" height="7" rx="3.5"/><path d="M5 37v-9h18v9"/><path d="M14 28v-8h7l2 8"/><path d="M21 25l11-14 10 9"/><path d="M42 20l3 7h-7z"/></svg><p class="t">Excavators</p><p class="d">Mini to large crawler and wheeled.</p></div><span class="go">BROWSE →</span></a><a class="cat" href="/listings?category=Dozers"><div><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="10" y="34" width="30" height="9" rx="4.5"/><path d="M14 34v-12h16l4 12"/><path d="M18 22v-6h8v6"/><path d="M40 26l5-2v16h-5"/></svg><p class="t">Dozers</p><p class="d">Crawler dozers and track loaders.</p></div><span class="go">BROWSE →</span></a><a class="cat" href="/listings?category=Wheel+Loaders"><div><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="14" cy="37" r="6"/><circle cx="33" cy="37" r="6"/><path d="M8 31V20h14l4 11"/><path d="M26 25h10l4-8 6 3-3 9"/></svg><p class="t">Wheel Loaders</p><p class="d">Compact to large wheel loaders.</p></div><span class="go">BROWSE →</span></a><a class="cat" href="/listings?category=Trucks"><div><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 16h26l-2 13H6z"/><path d="M27 19h11"/><path d="M33 29v-7h7l5 5v5"/><path d="M3 32h42"/><circle cx="12" cy="38" r="5"/><circle cx="36" cy="38" r="5"/></svg><p class="t">Haul &amp; Dump Trucks</p><p class="d">Articulated, rigid and on-road.</p></div><span class="go">BROWSE →</span></a><a class="cat" href="/listings?category=Graders"><div><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="37" r="5"/><circle cx="39" cy="37" r="5"/><path d="M14 37h20"/><path d="M30 37V24h10v8"/><path d="M6 32l26-8"/><path d="M14 31l-2 6"/></svg><p class="t">Motor Graders</p><p class="d">Graders and road equipment.</p></div><span class="go">BROWSE →</span></a><a class="cat" href="/listings?category=Compaction"><div><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="15" cy="34" r="9"/><path d="M24 34h10"/><path d="M28 34V20h12v14"/><circle cx="38" cy="38" r="5"/></svg><p class="t">Compaction</p><p class="d">Rollers and plate compactors.</p></div><span class="go">BROWSE →</span></a><a class="cat" href="/listings?category=Survey+Gear"><div><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="16" y="5" width="16" height="13" rx="2"/><circle cx="24" cy="11.5" r="3"/><path d="M20 18v3h8v-3M24 21l-11 22M24 21l11 22M24 21v22"/></svg><p class="t">Survey &amp; GNSS Gear</p><p class="d">Total stations, rovers, lasers, drones.</p></div><span class="go">BROWSE →</span></a><a class="cat" href="/listings?category=Attachments"><div><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 12h18l10 10v10H18L8 22z"/><path d="M36 22l6-2v14l-6 0"/><path d="M14 18h6"/></svg><p class="t">Attachments &amp; Parts</p><p class="d">Buckets, hammers, GPS kits, parts.</p></div><span class="go">BROWSE →</span></a></div>
+</div></section>
+
+<section class="bleed how sec" id="latest"><div class="wrap">
+<div class="headrow"><div><p class="kick">Latest listings</p><h2>Fresh on the marketplace</h2></div><a class="more" href="/listings">See all listings →</a></div>
+<div id="imk-list"><div class="empty"><h3>The marketplace just opened.</h3><p>Be one of the first sellers. Listing is free, and early listings get seen first by everyone checking out the new marketplace.</p><a class="btn1" href="/sell">List Your Equipment Free →</a></div></div>
+</div></section>
+
+<section class="sec"><div class="wrap">
+<p class="kick">Selling?</p>
+<h2>List it free. Sell it direct.</h2>
+<div class="steps">
+<div class="step"><span class="n">1</span><h3>List it free</h3><p>Send photos, hours, specs, price and location through our listing form. About five minutes.</p></div>
+<div class="step"><span class="n">2</span><h3>We review it</h3><p>Our team checks every listing before it goes live, usually within 1 to 2 business days.</p></div>
+<div class="step"><span class="n">3</span><h3>Buyers contact you</h3><p>Buyers reach you directly. No commissions and no middleman on the sale.</p></div>
+</div>
+<div class="featbox"><div><h3>Want it sold faster? Go Featured.</h3><p>Featured listings get a gold badge, stay pinned at the top of their category and show up on the homepage. Ask for Featured when you submit your listing.</p></div><a class="btn1" href="/sell">List Your Equipment →</a></div>
+</div></section>
+
+<section class="bleed how sec"><div class="wrap">
+<p class="kick">Buyer safety</p>
+<h2>Buy smart.</h2>
+<div class="tips">
+<div class="tip"><b>Inspect before you pay.</b> See the machine in person or send a trusted mechanic or inspector.</div>
+<div class="tip"><b>Verify the serial number.</b> Match the PIN or serial to the paperwork and run it for liens and theft records.</div>
+<div class="tip"><b>Never wire money to a stranger.</b> For big deals, use a reputable equipment escrow service or pay at pickup.</div>
+<div class="tip"><b>If the price looks too good, it probably is.</b> Watch for pushy sellers, overseas shipping requests and refusals to meet.</div>
+</div>
+<p class="note">Iron &amp; Signal is a listing platform and is not a party to any sale. Buyers and sellers deal directly and are responsible for their own transactions. Buyers and sellers in China and Russia are not permitted. See our <a href="/marketplace-terms">Marketplace Terms</a>.</p>
+</div></section>
+
+</div>
+<script>(function(){function hh(){var h=document.querySelector('header#header,.header');var x=document.querySelector('.imk');if(h&&x)x.style.setProperty('--hh',Math.round(h.getBoundingClientRect().height)+'px')}hh();addEventListener('load',hh);addEventListener('resize',hh);document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('[data-jump]');if(!a)return;var t=document.getElementById(a.getAttribute('data-jump'));if(t){e.preventDefault();scrollTo({top:t.getBoundingClientRect().top+scrollY-100,behavior:'smooth'})}});
+function esc(t){return String(t==null?'':t).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+fetch('/listings?format=json',{credentials:'same-origin'}).then(function(r){return r.ok?r.json():null}).then(function(j){var it=(j&&j.items)||[];if(!it.length)return;it.sort(function(a,b){var fa=(a.tags||[]).indexOf('Featured')>-1?1:0,fb=(b.tags||[]).indexOf('Featured')>-1?1:0;return fb-fa||(b.publishOn||0)-(a.publishOn||0)});var h='<div class="lgrid">';it.slice(0,6).forEach(function(p){var f=(p.tags||[]).indexOf('Featured')>-1;var img=p.assetUrl?'<img src="'+esc(p.assetUrl)+'?format=750w" alt="" loading="lazy">':'<img alt="">';var ex=(p.excerpt||'').replace(/<[^>]+>/g,'').slice(0,140);h+='<a class="lc" href="'+esc(p.fullUrl)+'">'+(f?'<span class="feat">Featured</span>':'')+img+'<div class="lb">'+((p.categories||[])[0]?'<span class="lcat">'+esc(p.categories[0])+'</span>':'')+'<p class="lt">'+esc(p.title)+'</p><p class="lx">'+esc(ex)+'</p></div></a>'});h+='</div>';document.getElementById('imk-list').innerHTML=h}).catch(function(){})})();</script>
