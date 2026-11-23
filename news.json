@@ -1,78 +1,78 @@
 {
-  "week": "Week of Nov 16, 2026",
-  "updated": "2026-11-16",
+  "week": "Week of Nov 23, 2026",
+  "updated": "2026-11-23",
   "stories": [
     {
       "category": "Construction",
-      "url": "https://www.constructiondive.com/news/gilbane-alaska-kodiak-coast-guard-water/874438/",
-      "image": "1660367439240-d38cb03a4365",
-      "text": "Gilbane Federal won a $114M Coast Guard job to rebuild Base Kodiak's water system, including more than eight miles of new main.",
-      "source": "Construction Dive",
-      "date": "Nov 11"
-    },
-    {
-      "category": "Construction",
-      "url": "https://www.enr.com/articles/64271-construction-prices-remain-flat-in-october-steel-and-copper-costs-surge",
-      "image": "1786618315979-2dbbfd3b38a7",
-      "text": "Input costs held steady in October but sit 11.5% above last year, with steel mill products up about a third.",
+      "url": "https://www.enr.com/articles/64378-ny-power-authority-shortlists-ten-firms-to-build-new-nuclear-plants",
+      "image": "1689456852106-f9531a517c8b",
+      "text": "NYPA narrowed 21 applicants to 10 developers, including Holtec, TerraPower and X-energy, for the first 1 GW of New York's planned nuclear buildout.",
       "source": "ENR",
-      "date": "Nov 13"
+      "date": "Nov 19"
     },
     {
       "category": "Heavy Civil",
-      "url": "https://www.enr.com/articles/64257-75b-big-bend-border-construction-program-back-on-in-texas-for-now",
-      "image": "1610477865545-37711c53144d",
-      "text": "A Supreme Court stay restarts roughly $7.5B in Big Bend border contracts held by Kiewit, Barnard and others, pending a final ruling.",
+      "url": "https://www.constructiondive.com/news/skanska-traylor-bros-new-jersey-rail-bridge/875098/",
+      "image": "1701795785443-aa6878aaa5b6",
+      "text": "Skanska and Traylor Bros. finished the $1.6B Portal North Bridge, replacing a 116-year-old Hackensack River swing span on the Northeast Corridor.",
+      "source": "Construction Dive",
+      "date": "Nov 18"
+    },
+    {
+      "category": "Heavy Civil",
+      "url": "https://www.enr.com/articles/64380-senate-passes-permitting-reform-bill-to-speed-infrastructure-construction",
+      "image": "1757731054066-ecfc2389146d",
+      "text": "A permitting overhaul cleared the Senate 62-33, putting a 150-day clock on many environmental lawsuits; the House takes it up next.",
       "source": "ENR",
-      "date": "Nov 10"
+      "date": "Nov 20"
     },
     {
       "category": "Geospatial",
-      "url": "https://www.geoweeknews.com/articles/leica-geosystems-introduces-leica-dmc-5-large-format-camera-for-more-efficient-airborne-mapping/",
-      "image": "1532961432136-ca37cae5fa4a",
-      "text": "Leica Geosystems launched the DMC-5 aerial mapping camera, which it says gathers over 30% more imagery per flight than earlier models.",
-      "source": "Geo Week News",
-      "date": "Nov 10"
-    },
-    {
-      "category": "Geospatial",
-      "url": "https://www.gpsworld.com/u-k-tender-on-resilient-pnt/",
-      "image": "1590433333434-09df2b2a35a5",
-      "text": "The UK's Dstl is seeking industry input on a timing and positioning system that keeps working when GNSS is jammed or degraded.",
+      "url": "https://www.gpsworld.com/canada-lags-in-geodetic-infrastructure/",
+      "image": "1766830110938-0ea8a6d78ecb",
+      "text": "An expert panel found Canada short on geodetic ground stations, with thin GNSS coverage in the North and heavy reliance on foreign positioning systems.",
       "source": "GPS World",
-      "date": "Nov 12"
+      "date": "Nov 22"
     },
     {
       "category": "Geospatial",
-      "url": "https://www.gpsworld.com/taoglas-introduces-crpa-reference-design-for-resilient-gnss-development/",
-      "image": "1745697213293-21d6c972ac1a",
-      "text": "Taoglas released an off-the-shelf reference design for anti-jam CRPA antennas, aimed at speeding up resilient GNSS product development.",
-      "source": "GPS World",
-      "date": "Nov 15"
+      "url": "https://insidegnss.com/eutelsat-network-solutions-adds-alternative-pnt-to-60-million-plus-space-force-leo-award/",
+      "image": "1661945072487-bf771c03851c",
+      "text": "Eutelsat's US defense arm will bundle backup positioning and timing with OneWeb satellite links under a Space Force deal worth over $60M.",
+      "source": "Inside GNSS",
+      "date": "Nov 18"
+    },
+    {
+      "category": "Geospatial",
+      "url": "https://insidegnss.com/japan-dx-antenna-unveils-sub-30-g-four-frequency-gnss-antenna-for-drones/",
+      "image": "1762707867281-2ffc60c8bbb3",
+      "text": "Japan's DX Antenna built a featherweight four-band GNSS antenna for survey and farm drones that also picks up Michibiki correction signals.",
+      "source": "Inside GNSS",
+      "date": "Nov 19"
     },
     {
       "category": "Mining",
-      "url": "https://www.northernminer.com/news/freeport-strikes-110m-deal-for-bc-copper-stake/1003897770/",
-      "image": "1571223641822-b82408a0e705",
-      "text": "Freeport-McMoRan will pay about US$77M for 51% of TDG Gold's Aurora West copper project in BC's Toodoggone district.",
+      "url": "https://www.northernminer.com/news/miners-drill-more-but-raise-28-less-money/1003898112/",
+      "image": "1610375461246-83df859d849d",
+      "text": "Mining fundraising dropped 28% to about $9.8B last quarter even as companies reported a record number of drill holes, per S&P Global data.",
       "source": "Northern Miner",
-      "date": "Nov 13"
+      "date": "Nov 20"
     },
     {
       "category": "Mining",
-      "url": "https://www.northernminer.com/news/paladin-seeks-a525m-for-saskatchewan-uranium/1003897731/",
-      "image": "1664565262236-65166affe34a",
-      "text": "Paladin Energy is raising A$525M to build its Patterson Lake South uranium mine in Saskatchewan, targeting first output in 2031.",
+      "url": "https://www.northernminer.com/news/gold-price-falls-nears-3500-as-miners-costs-rise-at-record-pace/1003898076/",
+      "image": "1737815914093-becb6c9ac064",
+      "text": "Gold slid to its weakest level in 14 months while producers' all-in sustaining costs jumped 22% year over year, squeezing margins.",
       "source": "Northern Miner",
-      "date": "Nov 12"
+      "date": "Nov 20"
     },
     {
       "category": "Mining",
-      "url": "https://www.northernminer.com/news/mineros-gold-bet-raises-cash-and-collateral-risks/1003897790/",
-      "image": "1762463176312-1757d5125c85",
-      "text": "Mineros spent US$137M stockpiling gold bullion last quarter, and one analyst warns the strategy adds margin-call and cash risks.",
+      "url": "https://www.northernminer.com/news/angola-plans-us180-million-for-de-beers-stake/1003898116/",
+      "image": "1736855719599-c0298b8faf95",
+      "text": "Angola's state diamond firm Endiama says it will pay roughly $180M for 10% of De Beers as Anglo American works toward an exit.",
       "source": "Northern Miner",
-      "date": "Nov 13"
+      "date": "Nov 20"
     }
   ]
 }
